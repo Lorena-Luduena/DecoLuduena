@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <div class="contenedor5">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./productos.html">Productos</a></li>
+                    <li><a href="./servicios.html">Servicios</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <article>
+                <form>
+                    <label for="nombre_apellido">Ingrese Nombre y Apellido</label>
+                    <input type="text" name="nombre_apellido" /> <br>
+                    <label for="edad">Ingrese su edad</label>
+                    <input type="number" name="edad" /> <br>
+                    <label for="consultas">Ingrese su consulta</label><br>
+                    <textarea type="text" name="consultas"></textarea><br>
+
+                    <input type="submit" value="Enviar info" />
+                    <input type="reset" value="Borrar info" />
+                    <input type="button" value="Fuera de funcionamiento" /><br>
+
+                    <div>Hombre</div>
+                    <input type="radio" name="sexo" value="Hombre" />
+                    <div>Mujer</div>
+                    <input type="radio" name="sexo" value="Mujer" /><br>
+
+                    <select name="color">
+                        <option value="N">Negro</option>
+                        <option value="B">Blanco</option>
+                        <option value="M">Marron</option>
+                    </select>
+
+                    <div>Acepta terminos y condiciones</div>
+                    <input type="checkbox" name="acepta" value="1">
+                </form>
+            </article>
+        </section>
+
+        <footer>
+            <ul class="redes">
+                <img class="icon" src="../imagenes/Facebook.svg" alt="iconofacebook">
+                <img class="icon" src="../imagenes/Instagram.svg" alt="iconoinstagram">
+                <img class="icon" src="../imagenes/Twitter.svg" alt="iconotwitter">
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
