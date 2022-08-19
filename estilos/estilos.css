@@ -262,6 +262,10 @@ footer {
     background-image:linear-gradient(to left, rgb(85, 82, 82), rgb(192, 22, 79));
 }
 
+.colorok{
+    background-color: rgb(85, 82, 82);
+}
+
 
 
 
