@@ -7,24 +7,6 @@ header {
     h1 {
         color: white;
     }
-
-    nav ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        font-size: 2rem;
-
-        li {
-            list-style-type: none;
-            display: inline-block;
-        }
-
-        a {
-            text-decoration: none;
-            color: white;
-        }
-
-    }
 }
 
 

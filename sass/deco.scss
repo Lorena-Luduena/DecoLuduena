@@ -83,7 +83,7 @@
         }  
     }
     
-    @media screen and (min-width:475px) and (max-width:912px) {
+    @media screen and (max-width:912px) and (min-width:475px) {
         .contenedor-grid .contenedor-grid2 .contenedor-grid3 .contenedor-grid4 .contenedor-grid5 {
             width: 100%;
             display: grid;
@@ -98,7 +98,7 @@
         }
     }
     
-    @media screen and (min-width: 912px) and (max-width: 1024px){
+    @media screen and (max-width: 1024px) and (min-width: 912px){
         .contenedor-grid .contenedor-grid2 .contenedor-grid3 .contenedor-grid4 .contenedor-grid5 {
             width: 100%;
         }
@@ -223,6 +223,17 @@
         background-color: rgb(85, 82, 82);
     }
 
-    .post{
+    .contenidoPost{
         font-size: $size;
+        color: white;
+        font-weight: bold;
+        margin: 30px;
     }
+
+    .post{
+        @extend .contenidoPost;
+    }
+
+    
+
+    
