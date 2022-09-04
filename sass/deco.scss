@@ -216,7 +216,7 @@
     .gradient{
         width: 100%;
         height: 100%;
-        background-image:linear-gradient(to left, rgb(85, 82, 82), rgb(192, 22, 79));
+        background-image:linear-gradient(to left, rgb(112, 109, 109), rgb(192, 22, 79));
     }
     
     .colorok{
@@ -233,6 +233,24 @@
     .post{
         @extend .contenidoPost;
     }
+
+    .card-body{
+        font-size: $size;
+        background-color: rgb(56, 54, 54);
+        color: white;
+        font-weight: bold;
+        margin: 5px;
+    }
+
+    .card-titel .card-text{
+        @extend .card-body;
+    }
+
+    .servTitulo{
+        font-size: 35px;
+    }
+
+
 
     
 
