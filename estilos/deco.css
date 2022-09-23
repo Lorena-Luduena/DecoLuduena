@@ -80,7 +80,7 @@ footer {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 475px) {
-  .contenedor-grid .contenedor-grid2 .contenedor-grid3 .contenedor-grid4 .contenedor-grid5 {
+  .contenedor-grid .contenedor-grid2 .contenedor-grid3 {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
@@ -89,7 +89,7 @@ footer {
   }
 }
 @media screen and (max-width: 912px) and (min-width: 475px) {
-  .contenedor-grid .contenedor-grid2 .contenedor-grid3 .contenedor-grid4 .contenedor-grid5 {
+  .contenedor-grid .contenedor-grid2 .contenedor-grid3 {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
@@ -98,7 +98,7 @@ footer {
   }
 }
 @media screen and (max-width: 1024px) and (min-width: 912px) {
-  .contenedor-grid .contenedor-grid2 .contenedor-grid3 .contenedor-grid4 .contenedor-grid5 {
+  .contenedor-grid .contenedor-grid2 .contenedor-grid3 {
     width: 100%;
   }
 }
@@ -233,6 +233,10 @@ footer {
   margin: 30px;
 }
 
+.card {
+  background-color: rgb(192, 22, 79);
+}
+
 .card-title {
   font-size: 3rem;
   color: white;
@@ -249,8 +253,8 @@ footer {
 }
 
 .card img {
-  width: 600px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -262,4 +266,23 @@ footer {
 .tituloProductos .tituloNosotros {
   font-size: 35px;
   font-weight: bold;
+}
+
+.texto {
+  width: 70%;
+  height: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+}
+
+.formulariocontacto {
+  width: 70%;
+  height: 90%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=deco.css.map */

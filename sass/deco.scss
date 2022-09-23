@@ -69,7 +69,7 @@
     /* MEDIA QUERIES */
     
     @media screen and (max-width:475px){
-        .contenedor-grid .contenedor-grid2 .contenedor-grid3 .contenedor-grid4 .contenedor-grid5 {
+        .contenedor-grid .contenedor-grid2 .contenedor-grid3{
             width: 100%;
             display: grid;
             grid-template-columns: 1fr;
@@ -84,7 +84,7 @@
     }
     
     @media screen and (max-width:912px) and (min-width:475px) {
-        .contenedor-grid .contenedor-grid2 .contenedor-grid3 .contenedor-grid4 .contenedor-grid5 {
+        .contenedor-grid .contenedor-grid2 .contenedor-grid3 {
             width: 100%;
             display: grid;
             grid-template-columns: 1fr;
@@ -99,7 +99,7 @@
     }
     
     @media screen and (max-width: 1024px) and (min-width: 912px){
-        .contenedor-grid .contenedor-grid2 .contenedor-grid3 .contenedor-grid4 .contenedor-grid5 {
+        .contenedor-grid .contenedor-grid2 .contenedor-grid3  {
             width: 100%;
         }
     }
@@ -239,6 +239,10 @@
         @extend .contenidoPost;
     }
 
+    .card{
+        background-color: rgb(192,22,79);
+    }
+
     .card-title{
         font-size: 3rem;
         color: white;
@@ -259,8 +263,8 @@
     }
 
     .card img{
-        width: 600px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         margin-right: auto;
         margin-left: auto;
     }
@@ -274,6 +278,24 @@
         font-weight: bold;
     }
 
+    .texto{
+        width: 70%;
+        height: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center;
+    }
+
+    .formulariocontacto{
+        width: 70%;
+        height: 90%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+    }
 
 
 
